@@ -1,3 +1,12 @@
+
+/* header {
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background color: light-blue;
+    color: #ffffff;
+    font-size: 48px;
+} */
+
 input[type=text] select textarea {
     width: 100%;
     padding: 12px;
@@ -7,6 +16,7 @@ input[type=text] select textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    
 }
 
 input[type=submit] {
@@ -20,6 +30,7 @@ input[type=submit] {
 
 input[type=submit]: hover {
     background-color: #45a049; 
+    
 }
 
 .container {
