@@ -1,11 +1,37 @@
+body {
+    background-color: #e6c3f4;
+}
 
-/* header {
+header {
     padding: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background color: light-blue;
-    color: #ffffff;
-    font-size: 48px;
-} */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #e2a4e1;
+    color: #3158ce;
+}
+
+header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header section ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.staytuned {
+    background-color:#3158ce;
+    color:#f2f2f2;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:20px;
+    display: inline-block;
+    border: 10px dotted lightblue;
+    
+
+
+}
 
 input[type=text] select textarea {
     width: 100%;
@@ -16,6 +42,7 @@ input[type=text] select textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+ 
     
 }
 
@@ -26,6 +53,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+   
 }
 
 input[type=submit]: hover {
@@ -35,6 +63,12 @@ input[type=submit]: hover {
 
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #3158ce;
+}
+
+footer h3 {
+    color: #3158ce;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

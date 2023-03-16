@@ -2,15 +2,32 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
-    <title>Visitor Information Collection</title>
-    <!-- Link to stylesheet using rel and href attributes -->
+    <title>Blog Signup</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
     <header>
         <h1>Sign up for my blog: Elmo's World!</h1>
+          <section>
+            <ul>
+                <li>
+                    <a href="#my-coding-journey">My Coding Journey</a>
+                </li>
+                <li>
+                   <a href="#food">Food</a>
+                </li>
+                <li>
+                   <a href="#my-dogs">My Dogs</a>
+                </li>
+            </ul>
+        </section>
     </header>
+
+    <section class="staytuned">
+        <p>First blog update coming soon. Stay tuned.</p>
+    </section>
+
         <section class="container">
             <form action="action_page.php">
                 <label for="fname">First Name</label>
@@ -19,13 +36,6 @@
                 <label for="lname">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-                </select>
-
                 <label for="email">Email</label>
                 <input id="email" name="email" placeholder="Your email.."></input>
 
@@ -33,9 +43,7 @@
             </form>
         </section>
     
-      <img src="./assets/images/image-1.jpg" alt="200 x 200 placeholder image" />
-
-    </section>
+    
     <footer>
         <h3>Welcome to Elmo's World! Thanks for visiting!</h3>
     </footer>
